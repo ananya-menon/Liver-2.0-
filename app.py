@@ -21,9 +21,9 @@ def predict():
     output = int(prediction[0])
 
     if output == 0:
-        return render_template('liver.html', prediction_text= 'Liver Disease : No')
+        return render_template('liver.html', prediction_text= 'Yaaaaay!You will not suffer from liver cirrhosis :)')
     else:
-        return render_template('liver.html', prediction_text= 'Liver Disease : Yes') 
+        return render_template('liver.html', prediction_text= ' Drink less you might have liver cirrhosis.') 
 
 
 if __name__ == "__main__":
