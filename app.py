@@ -23,7 +23,7 @@ def predict():
     if output == 0:
         return render_template('liver.html', prediction_text= 'Yaaaaay!You will not suffer from liver cirrhosis :)')
     else:
-        return render_template('liver.html', prediction_text= ' Drink less you might have liver cirrhosis.') 
+        return render_template('liver.html', prediction_text= ' Drink less!  You have a chance of getting liver cirrhosis :( ') 
 
 
 if __name__ == "__main__":
